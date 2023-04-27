@@ -53,27 +53,27 @@ int month_31SumCheck_Future(int month)
 {
     if (month == 12)
         return 7;
-    if (month == 11)
+    else if (month == 11)
         return 6;
-    if (month == 10)
+    else if (month == 10)
         return 6;
-    if (month == 9)
+    else if (month == 9)
         return 5;
-    if (month == 8)
+    else if (month == 8)
         return 5;
-    if (month == 7)
+    else if (month == 7)
         return 4;
-    if (month == 6)
+    else if (month == 6)
         return 3;
-    if (month == 5)
+    else if (month == 5)
         return 3;
-    if (month == 4)
+    else if (month == 4)
         return 2;
-    if (month == 3)
+    else if (month == 3)
         return 2;
-    if (month == 2)
+    else if (month == 2)
         return 1;
-    if (month == 1)
+    else if (month == 1)
         return 1;
     else
         return 0;
@@ -84,27 +84,27 @@ int month_31SumCheck_Past(int month)
 {
     if (month == 12)
         return 1;
-    if (month == 11)
+    else if (month == 11)
         return 1;
-    if (month == 10)
+    else if (month == 10)
         return 2;
-    if (month == 9)
+    else if (month == 9)
         return 2;
-    if (month == 8)
+    else if (month == 8)
         return 3;
-    if (month == 7)
+    else if (month == 7)
         return 4;
-    if (month == 6)
+    else if (month == 6)
         return 4;
-    if (month == 5)
+    else if (month == 5)
         return 5;
-    if (month == 4)
+    else if (month == 4)
         return 5;
-    if (month == 3)
+    else if (month == 3)
         return 6;
-    if (month == 2)
+    else if (month == 2)
         return 6;
-    if (month == 1)
+    else if (month == 1)
         return 7;
     else
         return 0;
